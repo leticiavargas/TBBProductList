@@ -5,3 +5,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+ul, li {
+  list-style: none;
+  padding: unset;
+  margin: unset;
+}
