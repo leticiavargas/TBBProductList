@@ -1,0 +1,15 @@
+@use 'src/styles/colors';
+
+.section {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid pink;
+  width: 100%;
+
+  header {
+    height: 24px;
+    color: colors.$darkBlue;
+    border-bottom: 1px solid colors.$neutral;
+    margin-bottom: 16px;
+  }
+}
