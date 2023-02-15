@@ -1,0 +1,23 @@
+@use 'src/styles/breakpoints';
+@use 'src/styles/colors';
+@use 'src/styles/fonts';
+
+.filter-section {
+  max-width: 200px;
+
+  li {
+    height: 24px;
+    display: flex;
+    align-items: center;
+
+    .category {
+      color: colors.$darkBlue;
+      font-size: fonts.$small;
+      margin-left: 4px;
+    }
+  }
+
+  @media (max-width: breakpoints.$tablet) {
+    max-width: 100%;
+  }
+}
