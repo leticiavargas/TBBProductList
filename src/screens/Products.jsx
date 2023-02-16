@@ -48,7 +48,7 @@ function Products () {
 
   return (
     <main className="products">
-      <Header search={search} setSearch={setSearch} />
+      <Header search={search} onSearch={setSearch} />
       <section className='body'>
         <CategoryList 
           categories={categories} 

@@ -7,11 +7,13 @@
 
   h1 {
     text-transform: uppercase;
-    font-weight: 700;
+    font-size: fonts.$large;
+    font-weight: fonts.$extraBold;
     color: colors.$darkBlue;
+    letter-spacing: -0.05em;
 
     @media (max-width: breakpoints.$mobile) {
-      font-size: fonts.$large;
+      font-size: fonts.$medium;
     }
 
     span {
