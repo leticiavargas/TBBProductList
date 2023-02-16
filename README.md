@@ -1,6 +1,7 @@
 <h1 align="center">📄 Projeto Lista de Produtos</h1>
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.0.1-green" alt="badge de versão do projeto"/>
+  <img src="https://img.shields.io/badge/version-1.0.0-green" alt="badge de versão do projeto"/>
+  <img src="https://img.shields.io/static/v1?label=NodeJS&message=18.14.0&color=339933&logo=node.js" alt="Badge versão NodeJS"/>
   <img src="https://img.shields.io/static/v1?label=ReactJS&message=%CB%8618.2.0&color=61DAFB&logo=react" alt="Badge versão React"/>
   <img src="https://img.shields.io/static/v1?label=FontAwesome&message=%CB%866.3.0&color=528DD7&logo=fontawesome" alt="Badge versão FontAwesome"/>
   <img src="https://img.shields.io/static/v1?label=Sass&message=%CB%861.58.1&color=CC6699&logo=sass" alt="Badge versão Sass"/>
@@ -43,7 +44,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 📦 Como executar o projeto
 
-Importante, antes de começar, vocë vai precisar ter configurado ambiente de desenvolvimento com a versão atualizada do <kbd>NodeJS<kdb>.
+Importante, antes de começar, você vai precisar ter configurado ambiente de desenvolvimento com a versão atualizada do <kbd>NodeJS<kdb>.
 
 ```bash
 
