@@ -2,7 +2,7 @@ import Card from "./Card";
 import Header from "./Header";
 import Icon from "./Icon";
 import Section from "./Section";
-import FilterMenu from "./FilterMenu";
+import CategoryList from "./CategoryList";
 import ProductDisplay from "./ProductDisplay";
 
 import SearchInput from "./Inputs/SearchInput";
@@ -13,7 +13,7 @@ export {
   Header, 
   Icon,
   Section,
-  FilterMenu,
+  CategoryList,
   ProductDisplay,
   SearchInput,
   Checkbox,
