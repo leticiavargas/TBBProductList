@@ -12,7 +12,7 @@
     color: colors.$darkBlue;
     letter-spacing: -0.05em;
 
-    @media (max-width: breakpoints.$mobile) {
+    @media (max-width: breakpoints.$tablet) {
       font-size: fonts.$medium;
     }
 

@@ -11,7 +11,7 @@ function ProductsList ({ products }) {
 
   return(
     <Section title={t('productCount', {count: total})}>
-      <div className='product-display'>
+      <div className='product-list'>
         <ul>
           {
             products?.map((product) => (
