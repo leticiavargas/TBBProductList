@@ -3,6 +3,7 @@
   <img src="https://img.shields.io/badge/version-1.0.0-green" alt="badge de versão do projeto"/>
   <img src="https://img.shields.io/static/v1?label=NodeJS&message=18.14.0&color=339933&logo=node.js" alt="Badge versão NodeJS"/>
   <img src="https://img.shields.io/static/v1?label=ReactJS&message=%CB%8618.2.0&color=61DAFB&logo=react" alt="Badge versão React"/>
+  <img src="https://img.shields.io/static/v1?label=i18next&message=%CB%8622.4.9&color=26A69A&logo=i18next" alt="Badge versão i18next"/>
   <img src="https://img.shields.io/static/v1?label=FontAwesome&message=%CB%866.3.0&color=528DD7&logo=fontawesome" alt="Badge versão FontAwesome"/>
   <img src="https://img.shields.io/static/v1?label=Sass&message=%CB%861.58.1&color=CC6699&logo=sass" alt="Badge versão Sass"/>
 </p>
@@ -29,6 +30,9 @@
 - [x] Filtrar produtos por categoria
 - [x] Pesquisar por nome produtos dentro de uma categoria
 
+### Evolução do projeto
+- Internacionalizar as informações dos produtos
+
 
 ## 🕹 Tecnologias
 
@@ -41,6 +45,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[Create React App](https://create-react-app.dev/)**
 -   **[React App Rewired](https://www.npmjs.com/package/react-app-rewired)**
 -   **[Babel Plugin Module Resolver](https://www.npmjs.com/package/babel-plugin-module-resolver)**
+-   **[i18next](https://www.i18next.com/)**
 
 ## 📦 Como executar o projeto
 

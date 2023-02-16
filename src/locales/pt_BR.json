@@ -1,0 +1,11 @@
+{
+  "translation": {
+    "what": "o que você",
+    "lookingFor": "está procurando?",
+    "searchHere": "busque aqui",
+    "filters": "Filtros", 
+    "productCount_zero": "nenhum resultado",
+    "productCount_one": "1 resultado",
+    "productCount_other": "{{count}} resultados"
+  }
+}

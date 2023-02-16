@@ -1,19 +1,16 @@
 import { useMemo } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Section, Card } from 'components';
 import './productsList.scss';
 
 function ProductsList ({ products }) {
+  const {t} = useTranslation();
 
-  const productResultTitle = useMemo(() => {
-    const total = products?.length;
-    if (total === 0)
-      return 'Nenhum resultado';
-    else
-     return total + (total > 1 ? ' resultados' : ' resultado');
-  }, [products]);
+
+  const total = useMemo(() => (products?.length), [products]);
 
   return(
-    <Section title={productResultTitle}>
+    <Section title={t('productCount', {count: total})}>
       <div className='product-display'>
         <ul>
           {
@@ -23,8 +20,6 @@ function ProductsList ({ products }) {
               </li>
           ))}
         </ul>
-        
-
       </div>
     </Section>
   )

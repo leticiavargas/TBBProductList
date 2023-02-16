@@ -6,6 +6,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 
 import './index.scss';
+import 'locales/i18n';
 import App from './App';
 
 library.add(fas, far);

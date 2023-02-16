@@ -6,7 +6,6 @@ import { FilterProductsByCategory, FilterProductsByName } from 'utils';
 import './products.scss';
 
 function Products () {
-
   const [search, setSearch] = useState('');
   const [categoryFilter, setCategoryFilter] = useState([]);
   const products = useProducts();

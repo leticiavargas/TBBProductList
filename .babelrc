@@ -8,6 +8,7 @@
           "screens": "./src/screens",
           "hooks": "./src/hooks",
           "utils": "./src/utils",
+          "locales": "./src/locales",
         }
       }
     ]
