@@ -2,7 +2,7 @@ import { Icon } from 'components';
 import './searchInput.scss';
 
 function SearchInput({ icon, iconType, className, style, ...otherProps }) {
-  console.log('otherprops', otherProps)
+
   return (
     <div className={`search-input${className ? ` ${className}` : ''}`}>
       <input { ...otherProps } />
