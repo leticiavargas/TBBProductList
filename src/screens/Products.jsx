@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { useProducts } from 'hooks/useProducts';
-import { Header, ProductDisplay, CategoryList } from 'components';
+import { Header, ProductsList, CategoryList } from 'components';
 import { FilterProductsByCategory, FilterProductsByName } from 'utils'; 
 
 import './products.scss';
@@ -10,11 +10,9 @@ function Products () {
   const [search, setSearch] = useState('');
   const [categoryFilter, setCategoryFilter] = useState([]);
   const products = useProducts();
-  console.log(products);
 
   const filteredProducts = useMemo(() => {
-    console.log({categoryFilter, search});
-    if (categoryFilter.length == 0 && search === '') 
+    if (categoryFilter.length === 0 && search === '') 
       return products;
     else {
       const firstFilter = FilterProductsByCategory(products, categoryFilter);
@@ -23,7 +21,6 @@ function Products () {
   }, [search, categoryFilter, products]);
 
   const handleCategoryFilter = (event) => {
-    console.log("event >>>>", event.target.checked);
     let updatedList = [...categoryFilter];
     if (event.target.checked) {
       updatedList = [...categoryFilter, event.target.value];
@@ -34,9 +31,9 @@ function Products () {
   };
 
   const categories = useMemo(() => {
-    const categoriesData = search == '' ? products : filteredProducts;
+    const categoriesData = search === '' ? products : filteredProducts;
     return categoriesData?.reduce((categories, product) => {
-      const category = categories.find(c => c._id == product.category._id);
+      const category = categories.find(c => c._id === product.category._id);
       if (category) {
         category.count += 1;
       } else {
@@ -51,17 +48,17 @@ function Products () {
   }, [filteredProducts, products, search]);
 
   return (
-    <div className="products">
+    <main className="products">
       <Header search={search} setSearch={setSearch} />
-      <div className='body'>
+      <section className='body'>
         <CategoryList 
           categories={categories} 
-          categoryFilter={categoryFilter} 
-          handleCategoryFilter={handleCategoryFilter}
+          filter={categoryFilter} 
+          onFilter={handleCategoryFilter}
         />
-        <ProductDisplay products={filteredProducts} />
-      </div>
-    </div>
+        <ProductsList products={filteredProducts} />
+      </section>
+    </main>
   );
 }
 

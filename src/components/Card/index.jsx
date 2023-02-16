@@ -5,10 +5,10 @@ function Card ({ product }) {
   const { alt, asset } = product.images[0];
 
   return(
-    <div className="card">
+    <figure className="card" title={product.shortDescription}>
       <img alt={alt} src={asset.url} />
-      <span>{ product.name }</span>
-    </div>
+      <figcaption>{ product.name }</figcaption>
+    </figure>
   )
 }
 

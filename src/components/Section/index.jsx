@@ -2,12 +2,10 @@ import './section.scss';
 
 function Section({ title, className, style, children, ...otherProps }) {
   return (
-    <div className={`section${className ? ` ${className}` : ''}`}>
+    <section className={`section${className ? ` ${className}` : ''}`} {...otherProps}>
       { title?.length && <header>{title}</header> }
-      <div>
-        {children}
-      </div>
-    </div>
+      {children}
+    </section>
   )
 }
 

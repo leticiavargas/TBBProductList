@@ -3,7 +3,7 @@ import Header from "./Header";
 import Icon from "./Icon";
 import Section from "./Section";
 import CategoryList from "./CategoryList";
-import ProductDisplay from "./ProductDisplay";
+import ProductsList from "./ProductsList";
 
 import SearchInput from "./Inputs/SearchInput";
 import Checkbox from "./Inputs/Checkbox";
@@ -14,7 +14,7 @@ export {
   Icon,
   Section,
   CategoryList,
-  ProductDisplay,
+  ProductsList,
   SearchInput,
   Checkbox,
 }

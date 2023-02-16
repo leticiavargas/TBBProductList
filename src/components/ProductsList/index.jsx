@@ -1,12 +1,12 @@
 import { useMemo } from 'react';
 import { Section, Card } from 'components';
-import './productDisplay.scss';
+import './productsList.scss';
 
-function ProductDisplay ({ products }) {
+function ProductsList ({ products }) {
 
   const productResultTitle = useMemo(() => {
     const total = products?.length;
-    if (total == 0)
+    if (total === 0)
       return 'Nenhum resultado';
     else
      return total + (total > 1 ? ' resultados' : ' resultado');
@@ -30,4 +30,4 @@ function ProductDisplay ({ products }) {
   )
 }
 
-export default ProductDisplay;
+export default ProductsList;
