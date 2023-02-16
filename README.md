@@ -1,4 +1,4 @@
-<h1 align="center">Projeto Lista de Produtos</h1>
+<h1 align="center">📄 Projeto Lista de Produtos</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/version-1.0.1-green" alt="badge de versão do projeto"/>
   <img src="https://img.shields.io/static/v1?label=ReactJS&message=%CB%8618.2.0&color=61DAFB&logo=react" alt="Badge versão React"/>
