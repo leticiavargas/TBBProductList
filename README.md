@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  Depoly Status - [![Netlify Status](https://api.netlify.com/api/v1/badges/91a69045-735e-4112-b92e-09431d6195e2/deploy-status)](https://app.netlify.com/sites/gregarious-baklava-dabf96/deploys)
+</p>
+
+<p align="center">
  <a href="#-sobre-o-projeto">Sobre o projeto</a> •
  <a href="#-funcionalidades">Funcionalidades</a> • 
  <a href="#-tecnologias">Tecnologias</a> • 
@@ -24,14 +28,22 @@
   O sistema mostra ao usuário uma lista de produtos com nome e imagem, permite a pesquisa por nome do produto, além de possuir filtro por categoria de produto.
 </p>
 
+## Demo do projeto
+  Veja o projeto em execução 
+
+  <a href="https://gregarious-baklava-dabf96.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Acessar%20Projeto%20-h%20web-green">
+  </a>
+
 ## ⚙ Funcionalidades
 - [x] Listar produtos
 - [x] Pesquisar produtos por nome
 - [x] Filtrar produtos por categoria
 - [x] Pesquisar por nome produtos dentro de uma categoria
 
-### Evolução do projeto
-- Internacionalizar as informações dos produtos
+### TO-DO
+- [ ] Expandir internacionalização para outros idiomas
+- [ ] Internacionalizar as informações dos produtos
 
 
 ## 🕹 Tecnologias
@@ -46,6 +58,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[React App Rewired](https://www.npmjs.com/package/react-app-rewired)**
 -   **[Babel Plugin Module Resolver](https://www.npmjs.com/package/babel-plugin-module-resolver)**
 -   **[i18next](https://www.i18next.com/)**
+-   **[Netlify](https://www.netlify.com/)**
 
 ## 📦 Como executar o projeto
 
