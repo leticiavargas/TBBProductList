@@ -14,8 +14,8 @@ function CategoryList ({ categories, filter, onFilter }) {
             const isChecked = filter.includes(_id);
             return (
               <li key={name}>
-                <Checkbox value={_id} checked={isChecked} onChange={onFilter} />
-                <label className='category'>{name} ({count})</label>
+                <Checkbox id={_id} value={_id} checked={isChecked} onChange={onFilter} />
+                <label htmlFor={_id} className='category'>{name} ({count})</label>
               </li>
             )})
         }
